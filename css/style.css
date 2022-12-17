@@ -21,7 +21,37 @@ body {
 }
 
 /* button */
-.button-lg-primary {
+.button-lg-primary-hero {
+    width: 237px;
+    height: 70px;
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .2s ease-in;
+}
+
+.button-lg-primary:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in;
+}
+.button-lg-primary-tentang {
+    width: 237px;
+    height: 70px;
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .2s ease-in;
+}
+
+.button-lg-primary:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in;
+}
+.button-lg-primary-tentang-penawaran {
     width: 237px;
     height: 70px;
     background-color: var(--pr-color);
@@ -183,7 +213,7 @@ h2 {
 
 .card-layanan {
     width: 100%;
-    height: 400px;
+    height: 450px;
     border-radius: 5px;
     background: #fff;
     padding: 30px;
@@ -215,27 +245,9 @@ h2 {
 
 /* Hover */
 .card-layanan:hover {
-    width: 100%;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
     transition: all .3s ease-in;
-}
-
-.card-layanan:hover .circle-icon {
-    transition: all .2s ease-in;
-    ransform: scale(1.1);
-}
-
-.card-layanan:hover h3 {
-    /* color: #fff; */
-    font-size: 24px;
-    transition: all .2s ease-in;
-}
-
-.card-layanan:hover p {
-    /* color: #fff; */
-    font-size: 14px;
-    transition: all .2s ease-in;
 }
 
 /* Penawaran Section */
