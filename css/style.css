@@ -29,16 +29,32 @@ body {
     border: none;
     font-size: 20px;
     font-weight: 700;
+    transition: all .2s ease-in;
 }
 
-.button-secondary {
+.button-lg-primary:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in;
+}
+
+.link-kontak {
     width: 133px;
     height: 40px;
+    padding-left: 12px;
+    padding-top: 8px;
     background-color: var(--pr-color);
     color: #fff;
     border: none;
     font-size: 16px;
     font-weight: 700;
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+
+.link-kontak:hover {
+    color: #fff;
+    transform: scale(1.1);
+    transition: all .2s ease-in;
 }
 
 /* Navbar Style */
@@ -49,6 +65,7 @@ body {
 .navbar-bg {
     background-color: #fff;
     box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    height: 70px;
     transition: all ease-in 0.3s;
 }
 
@@ -100,7 +117,6 @@ body {
 }
 
 /* Logo section */
-
 #logo {
     height: 30vh;
     width: 100%;
@@ -181,6 +197,7 @@ h2 {
     height: 100px;
     background-color: transparent;
     border-radius: 50%;
+    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.05);
     transition: all .1s ease-in;
 }
 
@@ -200,24 +217,23 @@ h2 {
 .card-layanan:hover {
     width: 100%;
     border-radius: 5px;
-    background: linear-gradient(160deg, var(--pr-color), #000);
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
-    transition: all .2s ease-in;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    transition: all .3s ease-in;
 }
 
 .card-layanan:hover .circle-icon {
-    background-color: #fff;
     transition: all .2s ease-in;
+    ransform: scale(1.1);
 }
 
 .card-layanan:hover h3 {
-    color: #fff;
+    /* color: #fff; */
     font-size: 24px;
     transition: all .2s ease-in;
 }
 
 .card-layanan:hover p {
-    color: #fff;
+    /* color: #fff; */
     font-size: 14px;
     transition: all .2s ease-in;
 }
@@ -269,6 +285,7 @@ h2 {
     height: 460px;
     width: 95%;
     border: none;
+    transition: all ease-in-out .3s;
 }
 
 .card-body h4 {
@@ -285,18 +302,15 @@ h2 {
 }
 
 .card:hover {
-    background: linear-gradient(170deg, var(--pr-color), #007245, #007245, #000);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
     transition: all ease-in-out .3s;
 }
 
 .card:hover .card-body h4 {
-    color: #fff;
     transition: all ease-in-out .3s;
 }
 
 .card:hover .card-body p {
-    color: #fff;
     transition: all ease-in-out .3s;
 }
 
@@ -350,30 +364,9 @@ h2 {
     color: var(--pr-color);
 }
 
-/* Hover */
-.card-blog:hover {
-    width: 100%;
-    border-radius: 5px;
-    /* background: linear-gradient(160deg, var(--pr-color), #000); */
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
-    transition: all .2s ease-in;
-}
-
-.card-blog:hover .circle-icon {
-    background-color: #fff;
-    transition: all .2s ease-in;
-}
-
-.card-blog:hover h3 {
-    /* color: #fff; */
-    font-size: 24px;
-    transition: all .2s ease-in;
-}
-
-.card-blog:hover p {
-    /* color: #fff; */
-    font-size: 14px;
-    transition: all .2s ease-in;
+.card-blog a:hover {
+    font-weight: bold;
+    color: var(--pr-color);
 }
 
 /* footer */

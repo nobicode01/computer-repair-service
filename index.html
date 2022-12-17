@@ -29,14 +29,14 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light b navbar-bg position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-bg position-fixed w-100">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="Assets/img/Logo Icon.png" alt="" width="30" class="d-inline-block align-text-top me-3">
                 Net Komputer
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button type="submit" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -60,7 +60,7 @@
                     </li>
                 </ul>
 
-                <button onclick="pindahSection('kontak.html')" value="klik dong" class="button-secondary btn-kontak">Kontak Kami</button>
+                <a href="kontak.html" target="_blank"  class="link-kontak btn-kontak">Kontak Kami</a>
             </div>
         </div>
     </nav>
@@ -74,7 +74,7 @@
                     <p><span class="fw-bold">Kami dari Net Komputer</span> menawarkan layanan servis dan perawatan
                         laptop dan komputer anda..</p>
 
-                    <button onclick="pindahSection('#layanan')" value="klik dong" class="button-lg-primary">Temukan Layanan</button>
+                    <button type="submit" onclick="pindahSection('#layanan')" class="button-lg-primary">Temukan Layanan</button>
                 </div>
             </div>
 
@@ -87,18 +87,25 @@
     <section id="logo">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 text-start d-flex justify-content-between">
+                <div class="col-lg-12 text-start mb-3">
                     <h4>Kami bekerja dengan beberapa merek terbaik dunia:</h4>
                 </div>
+            </div>
+        </div>
 
-                <div class="col-lg-3 d-flex justify-content-between">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 logo1 justify-content-between">
                     <img src="Assets/img/logoipsum-1.png" alt="logo">
                 </div>
-                <div class="col-lg-3 d-flex justify-content-between">
+                <div class="col-lg-3 logo2 justify-content-between">
                     <img src="Assets/img/logoipsum-2.png" alt="logo">
                 </div>
-                <div class="col-lg-3 d-flex justify-content-between">
+                <div class="col-lg-3 logo3 justify-content-between">
                     <img src="Assets/img/logoipsum-3.png" alt="logo">
+                </div>
+                <div class="col-lg-3 logo4 justify-content-between">
+                    <img src="Assets/img/logoipsum-4.png" alt="logo">
                 </div>
             </div>
         </div>
@@ -118,7 +125,7 @@
                     <p><span class="fw-bold">Kami dari Net Komputer</span> menawarkan layanan servis dan perawatan
                         laptop dan komputer anda..</p>
 
-                    <button onclick="pindahSection('#')" value="klik dong" class="button-lg-primary">Baca Lagi</button>
+                    <button type="submit" onclick="pindahSection('#')" class="button-lg-primary">Baca Lagi</button>
                 </div>
             </div>
         </div>
@@ -189,7 +196,7 @@
                     <p><span class="fw-bold">Kami dari Net Komputer</span> menawarkan layanan servis dan perawatan
                         laptop dan komputer anda..</p>
 
-                        <button onclick="pindahSection('#')" value="klik dong" class="button-lg-primary">Baca Lagi</button>
+                        <button type="submit" onclick="pindahSection('#')" class="button-lg-primary">Baca Lagi</button>
                 </div>
 
                 <div class="col-md-6 mt-3">
@@ -291,11 +298,12 @@
                     </div>
 
                     <div class="col-md-6 d-flex justify-content-evenly justify-content-center">
-                        <a href="#">Home</a>
-                        <a href="#">Service</a>
-                        <a href="#">Tentang Kami</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Kontak</a>
+                        <a href="#tentang">Home</a>
+                        <a href="#tentang">Tentang Kami</a>
+                        <a href="#layanan">Service</a>
+                        <a href="#tim">Tim</a>
+                        <a href="#blog">Blog</a>
+                        <a href="kontak.html" target="_blank">Kontak</a>
                     </div>
                 </div>
 
