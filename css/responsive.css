@@ -102,29 +102,32 @@
         display: flex;
     }
     
-    .logo1 img {
-        flex: 1;
-        height: 10vh;
-        width: 10%;
-        margin-left: 10px;
+    #tentang {
+        margin-bottom: 150px;
+        width: 95%;
     }
 
-    .logo2 img {
-        flex: 2;
-        height: 10vh;
-        width: 10%;
-        margin-left: 10px;
+    #tentang .img-tentang {
+        width: 87%;
+        height: 47%;
+        margin-left: 20px;
+        z-index: 1;
     }
-    .logo3 img {
-        flex: 3;
-        height: 10vh;
-        width: 10%;
-        margin-left: 10px;
+    
+    .tentang-tagline h1 {
+        color: var(--pr-color);
+        font-weight: 600;
+        font-size: 24px;
+        margin-right: 15px;
+        margin-top: 320px;
+        line-height: 52px;
     }
-    .logo4 img {
-        flex: 4;
-        height: 10vh;
-        width: 10%;
-        margin-left: 10px;
+
+    .tentang-tagline p {
+        font-size: 14px;
+    }
+
+    #layanan .container {
+        top: 0;
     }
 }
