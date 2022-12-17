@@ -29,6 +29,7 @@
 
 #kontak img {
     background-color: var(--pr-color);
+    border-radius: 20%;
 }
 
 .kontak a {
@@ -48,16 +49,13 @@
 }
 
 .link-toko {
+    display: inline-block;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 18px;
-    color: #000;
-    text-decoration: none;
-}
-
-.link-toko:hover {
     color: var(--pr-color);
+    text-decoration: none;
 }
 
 .card-contact {
