@@ -35,7 +35,7 @@
     }
 
     h2 {
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .sub-title {
@@ -62,7 +62,7 @@
     }
 
     .hero-tagline p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .img-hero {
@@ -103,7 +103,6 @@
         width: 87%;
         height: 47%;
         margin-left: 20px;
-        z-index: 1;
     }
     
     .tentang-tagline h1 {
@@ -115,18 +114,18 @@
     }
 
     .tentang-tagline p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .button-lg-primary-tentang {
         width: 160px;
         height: 50px;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
     }
     
     #layanan h2 {
-        font-size: 30px;
+        font-size: 32px;
     }
     
     .card-layanan {
@@ -152,7 +151,7 @@
     
     .card-layanan h3 {
         color: var(--pr-color);
-        font-size: 24px;
+        font-size: 18px;
         transition: all .2s ease-in;
     }
     
@@ -160,5 +159,151 @@
         color: #000;
         font-size: 14px;
         transition: all .3s ease-in;
+    }
+
+    #penawaran {
+        height: 1000px;
+        width: 350px;
+        padding: 0 20px;
+    }
+
+    #penawaran .container {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    .penawaran-tagline h1 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 42px;
+    }
+    
+    .penawaran-tagline p {
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 60px;
+        margin-top: 20px;
+        line-height: 30px;
+        width: 85%;
+    }
+
+    .button-lg-primary-penawaran {
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    #penawaran .img-penawaran {
+        width: 87%;
+        height: 47%;
+        margin-right: 20px;
+    }
+
+    #tim {
+        background-color: #f3f3f3;
+    }
+    
+    #tim .container {
+        padding: 120px 0;
+    }
+    
+    .card {
+        height: 460px;
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+    .card-body h4 {
+        color: #000;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: .8rem;
+    }
+    
+    .card-body p {
+        color: #141414;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .card:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+        transition: all ease-in-out .3s;
+    }
+    
+    .card:hover .card-body h4 {
+        transition: all ease-in-out .3s;
+    }
+    
+    .card:hover .card-body p {
+        transition: all ease-in-out .3s;
+    }
+
+    #blog {
+        padding: 100px 0;
+        margin-bottom: 100px;
+    }
+    
+    h2 {
+        font-size: 48px;
+        font-weight: 500;
+        color: var(--pr-color);
+    }
+    
+    .card-blog {
+        width: 100%;
+        height: 600px;
+        border-radius: 5px;
+        background: #fff;
+        padding: 30px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+        transition: all .2s ease-in;
+        overflow: hidden;
+    }
+    
+    .card-blog img {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+        padding: 30px;
+        transition: all .2s ease-in;
+        overflow: hidden;
+    }
+    
+    .card-blog h3 {
+        color: var(--pr-color);
+        font-size: 18px;
+        margin-top: 50%;
+        padding-top: 50%;
+        transition: all .2s ease-in;
+    }
+    
+    .card-blog p {
+        color: #000;
+        font-size: 14px;
+        margin-top: 30px;
+        transition: all .3s ease-in;
+    }
+    
+    footer {
+        width: 100%;
+        height: 300px;
+        background: #f3f3f3;
+        padding-left: 10px;
+    }
+    
+    footer a {
+        font-size: 14px;
+        margin: 5px;
+        line-height: 30px;
+        text-decoration: none;
+    }
+    
+    .copyright {
+        font-size: 14px;
+        margin-top: 10px;
     }
 }
