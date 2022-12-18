@@ -242,6 +242,7 @@
     }
 
     #blog {
+        height: 1500px;
         padding: 100px 0;
         margin-bottom: 100px;
     }
@@ -255,10 +256,9 @@
     .card-blog {
         width: 100%;
         height: 600px;
-        border-radius: 5px;
-        background: #fff;
         padding: 30px;
-        margin-bottom: 20px;
+        border-radius: 5px;
+        margin-bottom: 30px;
         box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
         transition: all .2s ease-in;
         overflow: hidden;
@@ -286,6 +286,84 @@
         font-size: 14px;
         margin-top: 30px;
         transition: all .3s ease-in;
+    }
+
+    #kontak {
+        width: 100%;
+        height: 1100px;
+        margin-top: 30px;
+    }
+    
+    #kontak h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 40px;
+        color: var(--pr-color);
+        width: 330px;
+    }
+    
+    #kontak h6 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+        margin: 19px 0 14px 0;
+    }
+
+    .kontak a {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+
+    .card-contact {
+        width: 100%;
+        height: 445px;
+    }
+    
+    .card-contact h2 {
+        height: 100%;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .card-contact .form-control {
+        height: 55px;
+    }
+    
+    .form-floating label {
+        font-size: 14px;
+        line-height: 18px;
+        color: #717171;
+    }
+    
+    .button-kontak {
+        width: 100%;
+        height: 55px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+    .button-kontak:hover {
+        transform: scale(1.1);
+        transition: all .2s ease-in;
+    }
+
+    #g-maps .container {
+        width: 100px;
+        display: flex;
+    }
+    
+    #g-maps h1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    #g-maps iframe {
+        width: 295px;
+        margin: 10px;
     }
     
     footer {

@@ -48,7 +48,7 @@
     color: var(--pr-color);
 }
 
-.link-toko {
+#kontak h1 {
     display: inline-block;
     font-style: normal;
     font-weight: bold;
@@ -81,7 +81,6 @@
 .card-contact .form-control {
     background-color: #f3f3f3;
     height: 75px;
-    border-radius: 0;
 }
 
 .form-floating label {
@@ -106,4 +105,18 @@
 .button-kontak:hover {
     transform: scale(1.1);
     transition: all .2s ease-in;
+}
+
+#g-maps .container {
+    display: flex;
+}
+
+#g-maps h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#g-maps iframe {
+    width: 95%;
+    margin: 30px;
 }
