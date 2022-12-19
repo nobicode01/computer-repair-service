@@ -70,7 +70,7 @@ body {
 .link-kontak {
     width: 133px;
     height: 40px;
-    padding-left: 12px;
+    padding-left: 14px;
     padding-top: 8px;
     background-color: var(--pr-color);
     color: #fff;
@@ -81,8 +81,11 @@ body {
     transition: all .2s ease-in;
 }
 
-.link-kontak:hover {
+.link-kontak a {
     color: #fff;
+}
+
+.link-kontak:hover {
     transform: scale(1.1);
     transition: all .2s ease-in;
 }
