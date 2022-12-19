@@ -132,15 +132,15 @@
     .tentang-tagline h1 {
         color: var(--pr-color);
         font-size: 30px;
-        margin-right: 10px;
+        margin-right: 30px;
         margin-top: 320px;
         line-height: 52px;
-        padding-left: 5px;
     }
 
     .tentang-tagline p {
         font-size: 14px;
-        margin-right: 10px;
+        margin-left: 5px;
+        width: 95%;
     }
 
     .button-lg-primary-tentang {
@@ -157,6 +157,10 @@
     #layanan .paragraf {
         font-size: 16px;
         padding: 10px;
+    }
+    
+    #layanan span {
+        width: 90%;
     }
     
     .card-layanan {
