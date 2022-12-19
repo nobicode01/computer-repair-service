@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width : 360px) {
+@media screen and (max-width: 360px) {
     /* navbar */
     .bg-navbar-collapse {
         background-color: #fff;
@@ -129,6 +129,7 @@
         height: 5%;
         padding-left: 15px;
         padding-right: 15px;
+        margin-left: 10px;
     }
 
     #tentang .img-tentang {
